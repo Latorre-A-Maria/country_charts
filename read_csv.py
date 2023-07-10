@@ -15,4 +15,4 @@ def read_csv(path):
         return data
     
 if __name__ == "__main__":
-    data = read_csv(r"C:\Users\Usuario\Desktop\Python\app\data.csv")
+    data = read_csv(path)

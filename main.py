@@ -3,7 +3,7 @@ import read_csv
 import charts
 
 def run():
-    data = read_csv.read_csv(r"C:\Users\Usuario\Desktop\Python\app\data.csv")
+    data = read_csv.read_csv(path)
     chart_type = input("which type of graph do you want? Bar chart or Pie chart: ")
     chart_type = chart_type.capitalize()
 
